@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+  background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+}
+  
+  
+  .container {
+    
+    height:50%;
+    align-items: center;
+    background-color: #55575d;
+    position: relative;
+    width:30%;
+    margin: 50px auto;
+    padding:2px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+ h2 {
+     color: #fff;
+     text-align: center;
+  }
+
+.form {
+  margin: 0 auto;
+  max-width: 16rem;
+  overflow: auto;
+
+}
+
+.form-group  {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+  .form-group input {
+      border: 1px solid transparent;
+      border-bottom-color: white;
+      background-color: transparent;
+      color: white;
+      border-radius: 0;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 1px;
+      width: 100%;
+  }
+
+      .form-group input:focus {
+          outline: 0;
+          border-bottom-color: #777;
+      }
+  .form-group {
+    margin-bottom:2px;
+  }
+  label{
+    color: #fff;
+    margin-left: 24px;
+  }
+  
+  
+  input[type="text"], input[type="email"], input[type="password"],input[type="Phone"] {
+    width:300px;
+    height:20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    border-radius: 3px;
+  }
+  button[type="submit"] {
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    border-radius: 15px;
+    color: #000;
+    font-size: 1rem;
+    padding: 4px;
+    width:300px;
+    margin-left: 80px;
+
+  }
+
+  button[type="reset"] {
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    border-radius: 15px;
+    color: #000;
+    font-size: 1rem;
+    padding: 4px;
+    margin-top: 8px;
+    width:300px;
+    margin-left: 80px;
+  }
+ 
+
+
+  
+  span {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+.ss{
+
+    align-items: center;
+    padding-left: 40px;
+}
+
